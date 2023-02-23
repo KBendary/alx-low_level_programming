@@ -24,13 +24,12 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-		}
-		{
+
 			for (s = 1; s <= c; s++)
 			{
 				_putchar('#');
 			}
-		}
 			_putchar('\n');
+		}
 	}
 }
