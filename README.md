@@ -1,1 +1,1 @@
-0x05 on the way
+Static Libraries
