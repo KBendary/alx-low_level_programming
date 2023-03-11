@@ -1,39 +1,23 @@
 #include "main.h"
-		
+
 /**
- * _isalpha - checks for alphabetic character
- * @c: the character to be checked
- * Return: 1 if c is a letter, 0 otherwise
+ * _isalpha - check the code for Holberton School students.
+ *
+ * @c: is c an integer argument
+ *
+ * Return: Always 0.
  */
+
 int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
-}
- 
-  
-vi 4-strpbrk.c
-		
-#include "main.h"
-/**
- * _strpbrk - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
- */
-char *_strpbrk(char *s, char *accept)
-{
-	int k;
 
-	while (*s)
+	if (c >= 97 && c <= 122)
 	{
-		for (k = 0; accept[k]; k++)
-		{
-		if (*s == accept[k])
-		return (s);
-		}
-	s++;
+		return (1);
 	}
-
-return ('\0');
+	else if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	return (0);
 }
-

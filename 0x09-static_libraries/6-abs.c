@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value of an integer
- * @n: the int to check
- * Return: the absolute value of int
+ * _abs - check the code for Holberton School students.
+ *
+ * @n: is an integer argument
+ *
+ * Return: Always 0.
  */
+
 int _abs(int n)
 {
 	if (n >= 0)
@@ -13,4 +16,7 @@ int _abs(int n)
 	}
 	return (-n);
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
 
